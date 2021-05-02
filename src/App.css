@@ -1,38 +1,127 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: #000;
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+section {
+  position: relative;
+  width: 100vw;
+  height: max-content;
+}
+.h-80vh {
+  height: 100vh;
+}
+h1, h2 {
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  color: #ffff;
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 60px;
+  margin-top: 10px;
+}
+
+.section1-wrapper {
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.section2-wrapper {
+  width: 45%;
+  margin: auto;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+.hero-image-wrapper {
+  height: 600px;
+  width: 100vw;
+}
+.hero-img {
+  height: 100%;
+  width: 100vw;
+  object-position: right;
+  object-fit: contain;
+}
+
+.image-processor-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid #FFFF;
+  border-radius: 10px;
+  margin: 0 25%;
+}
+
+.processor-image {
+  margin: 40px 0
+}
+
+.apple-logo {
+  height: 100px;
+  filter: invert(1);
+}
+
+.apple-logo-text {
+  margin-top: 25%;
+  margin-bottom: 25%;
+  margin-left: 40px;
+  font-weight: bold;
+  font-size: 100px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.iphone-image-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.position-h1 {
+  grid-row: 7;
+  grid-column: 5 / span 4;
+  align-self: center;
+}
+.position-h2 {
+  grid-row: 7;
+  grid-column: 5 / span 4;
+  align-self: center;
+}
+p {
+  color: white;
+  margin: 0
+}
+.iphone-text {
+  font-size: 14px;
+}
+.fw-bold {
+  font-weight: bold;
+}
+.text-muted {
+  color: #78787D
+}
+.video {
+  margin: 0px 40px;
+}
+sup {
+  font-size: 10px;
+  margin-left: 0;
+  position: relative;
 }
