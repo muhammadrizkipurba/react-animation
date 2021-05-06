@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="883" height="70" viewBox="0 0 883 70">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="imageMask" width="442" height="70" transform="translate(575 4262)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="imageMask-2" data-name="imageMask" width="442" height="70" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-334 -4378)">
+    <g id="Mask_Group_2" data-name="Mask Group 2" transform="translate(-241 116)" clip-path="url(#clip-path)">
+      <path id="Shape_3_copy" data-name="Shape 3 copy" d="M1241.45,5392.63s-95.144-65.49-157.868-65.49-71.317,62.777-144.2,62.777-76.969-62.777-144.2-62.777-71.4,62.777-144.2,62.777-70.613-62.777-144.2-62.777-66.741,62.777-144.2,62.777-70.913-62.777-144.2-62.777-69.519,62.777-144.2,62.777S74.2,5520,74.2,5520H1227.79Z" transform="translate(506 -1065)" fill="#0d7fd6"/>
+      <rect id="imageMask-3" data-name="imageMask" width="442" height="70" transform="translate(575 4262)" fill="none"/>
+    </g>
+    <g id="Mask_Group_3" data-name="Mask Group 3" transform="translate(775 4378)" clip-path="url(#clip-path-2)">
+      <path id="Shape_3_copy-2" data-name="Shape 3 copy" d="M40.995,5392.63s95.144-65.49,157.868-65.49,71.317,62.777,144.2,62.777,76.969-62.777,144.2-62.777,71.4,62.777,144.2,62.777,70.613-62.777,144.2-62.777,66.741,62.777,144.2,62.777,70.913-62.777,144.2-62.777,69.519,62.777,144.2,62.777-.018,130.083-.018,130.083H54.655Z" transform="translate(-771.445 -5327)" fill="#0d7fd6"/>
+      <rect id="imageMask-4" data-name="imageMask" width="442" height="70" fill="none"/>
+    </g>
+  </g>
+</svg>
